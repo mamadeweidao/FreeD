@@ -119,7 +119,7 @@
       }
     },
 {
-      "name": "1080影视(不可搜索)",
+      "name": "闪电影视",
       "pic": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1014784000,3497780059&fm=26&gp=0.jpg",
       "url": "https://gitee.com/shuncaigao/sourceShare/raw/master/tv/doubantop100.json",
       "type": "webPlug",
@@ -130,10 +130,10 @@
       "webOpen": false,
       "click": true,
       "webPlus": {
-        "search_url": "https://www.ak1080.com/vodsearch/-------------.html?wd={kw}",
-        "nav_url": "https://www.ak1080.com/vodshow/navCate--hits------navPage---.html",
+        "search_url": "https://www.ak1080.com/vodsearch/{kw}-------------.html",
+        "nav_url": "https://www.ak1080.com/vodshow/navCate--------navPage---.html",
         "cate_url": "https://www.ak1080.com/vodshow/cateNav-cateArea--cateCate--------catePage---cateYear.html",
-        "web_name": "1080影视",
+        "web_name": "闪电影视",
         "kw": "wd",
         "params": [
           {
@@ -176,7 +176,7 @@
             "listItemAttr": "href",
             "listItemCss": "a",
             "listItemIndex": 0,
-            "mainCss": "ul.myui-content__list.scrollbar.sort-list.clearfix",
+            "mainCss": "ul.mo-movs-item.mo-sort-boxs.mo-cols-rows.mo-pamd-5px.mo-cols-show",
             "mainIndex": 0,
             "regIndexList": [
               0
@@ -194,7 +194,7 @@
             "isKWInUrl": false,
             "isWebPlay": false,
             "descAttr": "",
-            "descCss": "span.pic-text.text-left",
+            "descCss": "span.mo-situ-rema.mo-part-ramp.mo-fsxs-12px.mo-text-white.mo-coxs-center",
             "descIndex": 0,
             "hasImgUrlPrefix": true,
             "hasUrlPrefix": false,
@@ -205,12 +205,12 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "ul.myui-vodlist.clearfix",
+            "mainCss": "ul.mo-cols-rows",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 0,
-            "searchListCss": "ul.myui-vodlist.clearfix > li",
+            "searchListCss": "ul.mo-cols-rows > li",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
@@ -219,7 +219,7 @@
             "isKWInUrl": false,
             "isWebPlay": false,
             "descAttr": "",
-            "descCss": "span.pic-text.text-left",
+            "descCss": "span.mo-situ-rema.mo-part-ramp.mo-fsxs-12px.mo-text-white.mo-coxs-center",
             "descIndex": 0,
             "hasImgUrlPrefix": true,
             "hasUrlPrefix": false,
@@ -230,12 +230,12 @@
             "isImgAttr": true,
             "isNameAttr": true,
             "isUrlAttr": true,
-            "mainCss": "div.myui-panel-box.clearfix",
+            "mainCss": "div.mo-cols-rows",
             "mainListIndex": 0,
             "nameAttr": "title",
             "nameCss": "a",
             "nameIndex": 1,
-            "searchListCss": "ul.myui-vodlist__media.clearfix > li",
+            "searchListCss": "div.mo-cols-rows > dt",
             "urlAttr": "href",
             "urlCss": "a",
             "urlIndex": 0
